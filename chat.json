@@ -1,0 +1,17 @@
+{
+    "intents":
+    [
+        {
+            "tag":"greeting",
+            "patterns": ["hello", "hi", "good morning", "good evening", "good afternoon"],
+            "response": [["OUTPUT", ["Hello! Good to see you again.", "Hello mate.", "Hey, how are you going?"]]],
+            "context_set": ""
+        },
+        {
+            "tag":"google",
+            "patterns": ["search", "google"],
+            "response": [["COMMAND", "GOOGLE"]],
+            "context_set": ""
+        }
+    ]
+}
